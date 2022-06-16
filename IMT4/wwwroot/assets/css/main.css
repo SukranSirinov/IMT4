@@ -1,0 +1,249 @@
+header .collapse .bg-dark a {
+  list-style: none;
+  text-decoration: none;
+  color: #fff;
+  margin-left: 10px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+header .navbar {
+  background: transparent;
+}
+
+main .menu-img {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(/assets/img/145-2-018492b1c41f6a59bba02490014e90de.jpg);
+}
+
+main .menu-img .row .img-bg {
+  position: absolute;
+}
+
+main .menu-img .row .img-bg h1 {
+  font-size: 80px;
+  color: #fff;
+  margin-top: 200px;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .menu-img .row .img-bg button {
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+  border: 2px solid #fff;
+  margin-left: 810px;
+  background: transparent;
+}
+
+main .menu-img .row .img-bg button:hover {
+  background-color: #fff;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+main #Food {
+  background-color: #808080;
+}
+
+main #Food .container .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main #Food .container .title h1 {
+  color: black;
+  font-size: 45px;
+}
+
+main #Food .container .title p {
+  color: gray;
+  font-size: 15px;
+}
+
+main #Food .container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main #Food .container .row .food-img {
+  background-image: url(/assets/img/murg-malai-kabab-1957372-Hero_01-bb66c49fd80e4b95b26a6fdd68bd7a7d.jpg);
+  width: 300px;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+main #Food .container .row .food-title {
+  background-color: white;
+  width: 30%;
+  border: 2px solid #fff;
+}
+
+main #Food .container .row .food-title h1 {
+  margin-bottom: 30px;
+}
+
+main #Food .container .row .food-title p {
+  margin-bottom: 30px;
+}
+
+main #Food .container .row .food-title button {
+  width: 100px;
+  border: #fff;
+  background: transparent;
+  margin-bottom: 30px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+main #Food .container .row .food-title button:hover {
+  margin-left: 20px;
+}
+
+main #about .container .row {
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main #about .container .row .about {
+  margin-top: 100px;
+}
+
+main #about .container .row .about h2 {
+  font-size: 70px;
+}
+
+main #about .container .row .about p {
+  margin-top: 30px;
+}
+
+main #Info .container .row .info-title {
+  text-align: center;
+}
+
+main #Info .container .row .info-title h2 {
+  font-size: 50px;
+}
+
+main #Info .container .row .info-man {
+  text-align: center;
+}
+
+main #Info .container .row .info-man .info-img img {
+  margin-top: 70px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+main #Info .container .row .info-man .info-img p {
+  text-align: center;
+}
+
+main #Info .container .row .info-man .info-img .icons {
+  font-size: 20px;
+}
+
+main #Info .container .row .info-man .info-img .icons a {
+  list-style: none;
+  text-decoration: none;
+}
+
+main #Info .container .row .info-man .info-img .icons a i {
+  color: #ff8000;
+  margin-left: 30px;
+}
+
+main #menu .container .row .menu-title {
+  margin-top: 150px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+main #menu .container .row {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main #menu .container .row .menu-item {
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main #menu .container .row .menu-item a {
+  margin-left: 25px;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+  list-style: none;
+  text-decoration: none;
+}
+
+main #menu .container .row .menu-item a:hover {
+  background-color: #ff8000;
+  border-radius: 10px;
+}
+
+main #menu .container .row .menus {
+  border-bottom: 1px dotted #ccc;
+}
+
+main #menu .container .row .menus img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 15px;
+  border-radius: 7px;
+}
+
+main #menu .container .row .menus h1 {
+  font-size: 25px;
+  display: block;
+}
+
+main #menu .container .row .menus p {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: block;
+}
+
+.is-hidden {
+  display: none;
+}
+/*# sourceMappingURL=main.css.map */
